@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="14.784" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web\target\test-classes;C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web\target\classes;C:\Users\rojas\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\rojas\.m2\repository\org\postgresql\postgresql\42.7.13\postgresql-42.7.13.jar;C:\Users\rojas\.m2\repository\org\checkerframework\checker-qual\3.55.1\checker-qual-3.55.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\rojas\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rojas\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\rojas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\rojas\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\11.0.26\tomcat-embed-jasper-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\11.0.26\tomcat-embed-core-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\tomcat-annotations-api\11.0.26\tomcat-annotations-api-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\11.0.26\tomcat-embed-el-11.0.26.jar;C:\Users\rojas\.m2\repository\org\eclipse\jdt\ecj\3.46.0\ecj-3.46.0.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.12.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\rojas\AppData\Local\Temp\surefire875478855653957306\surefirebooter-20261009213833176_3.jar C:\Users\rojas\AppData\Local\Temp\surefire875478855653957306 2026-10-09T21-38-32_756-jvmRun1 surefire-20261009213833176_1tmp surefire_0-20261009213833176_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web\target\test-classes;C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web\target\classes;C:\Users\rojas\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\rojas\.m2\repository\org\postgresql\postgresql\42.7.13\postgresql-42.7.13.jar;C:\Users\rojas\.m2\repository\org\checkerframework\checker-qual\3.55.1\checker-qual-3.55.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\rojas\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rojas\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\rojas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\rojas\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\rojas\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\11.0.26\tomcat-embed-jasper-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\11.0.26\tomcat-embed-core-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\tomcat-annotations-api\11.0.26\tomcat-annotations-api-11.0.26.jar;C:\Users\rojas\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\11.0.26\tomcat-embed-el-11.0.26.jar;C:\Users\rojas\.m2\repository\org\eclipse\jdt\ecj\3.46.0\ecj-3.46.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rojas"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.12.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rojas\AppData\Local\Temp\surefire875478855653957306\surefirebooter-20261009213833176_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12+8-LTS"/>
+    <property name="user.name" value="rojas"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-14653896"/>
+    <property name="localRepository" value="C:\Users\rojas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\rojas\AppData\Local\Temp\"/>
+    <property name="catalina.home" value="C:\Users\rojas\AppData\Local\Temp\junit-18026698750904807763"/>
+    <property name="java.version" value="21.0.12"/>
+    <property name="user.dir" value="C:\Users\rojas\OneDrive\Documentos\desarrolloWeb\proyecto-web"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="catalina.base" value="C:\Users\rojas\AppData\Local\Temp\junit-18026698750904807763"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-21.0.12.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\rojas\.codex\tmp\arg0\codex-arg0GVgD8K;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files\Microsoft\jdk-21.0.12.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft\jdk-21.0.12.8-hotspot\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\PostgreSQL\18\bin;C:\Users\rojas\Downloads\flutter_windows_3.47.0-stable\flutter\bin;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\rojas\Downloads\apache-tomcat-11.0.26\apache-tomcat-11.0.26\bin;C:\Users\rojas\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\rojas\AppData\Local\Programs\Python\Python310\;C:\Users\rojas\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\rojas\AppData\Local\Programs\Python\Python313\;C:\Users\rojas\AppData\Local\Programs\Python\Launcher\;C:\Users\rojas\AppData\Local\Microsoft\WindowsApps;C:\Users\rojas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rojas\AppData\Local\Programs\ApacheMaven\apache-maven-3.9.16\bin;c:\Users\rojas\.vscode\extensions\openai.chatgpt-26.1007.21434-win32-x64\bin\windows-x86_64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.12+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="altaConAcentosComillasYHtmlPersisteYNoSeRepiteAlActualizar" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="3.992">
+    <system-err><![CDATA[oct 09, 2026 9:38:38 P. M. org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-nio-127.0.0.1-auto-1"]
+oct 09, 2026 9:38:38 P. M. org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Starting service [Tomcat]
+oct 09, 2026 9:38:38 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet engine: [Apache Tomcat/11.0.26]
+oct 09, 2026 9:38:38 P. M. org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFORMACIÓN: No global web.xml found
+oct 09, 2026 9:38:41 P. M. org.apache.jasper.servlet.TldScanner scanJars
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+oct 09, 2026 9:38:41 P. M. org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-nio-127.0.0.1-auto-1-58294"]
+]]></system-err>
+  </testcase>
+  <testcase name="codigoManipuladoEnEditarOBorrarNoAfectaOtrosJuegos" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.374"/>
+  <testcase name="borrarSoloPorPostYNoRepetirAlActualizar" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.366"/>
+  <testcase name="modificaLosCamposSinCambiarCodigoNiDuplicarAlActualizar" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.323"/>
+  <testcase name="rechazaEscriturasSinTokenDelFormulario" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.317"/>
+  <testcase name="sqlEnElFormularioSeGuardaComoTexto" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.306"/>
+  <testcase name="falloDeBaseNoInformaExitoNiFiltraSql" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.309">
+    <system-err><![CDATA[oct 09, 2026 9:38:47 P. M. org.apache.catalina.core.ApplicationContext log
+GRAVE: No se pudo consultar la tabla Videojuego
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEOJUEGO" no encontrada
+Table "VIDEOJUEGO" not found; SQL statement:
+SELECT codigo, titulo, genero, plataforma FROM Videojuego ORDER BY codigo [42102-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7945)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7916)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7895)
+	at org.h2.command.Parser.readTablePrimary(Parser.java:1769)
+	at org.h2.command.Parser.readTableReference(Parser.java:2249)
+	at org.h2.command.Parser.parseSelectFromPart(Parser.java:2702)
+	at org.h2.command.Parser.parseSelect(Parser.java:2810)
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2692)
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547)
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526)
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519)
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512)
+	at org.h2.command.Parser.parseQuery(Parser.java:2479)
+	at org.h2.command.Parser.parsePrepared(Parser.java:610)
+	at org.h2.command.Parser.parse(Parser.java:581)
+	at org.h2.command.Parser.parse(Parser.java:556)
+	at org.h2.command.Parser.prepareCommand(Parser.java:484)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:315)
+	at com.ejemplo.proyectoweb.modelo.VideojuegoDAO.listar(VideojuegoDAO.java:45)
+	at com.ejemplo.proyectoweb.controlador.SrvAgregarVideojuego.mostrar(SrvAgregarVideojuego.java:140)
+	at com.ejemplo.proyectoweb.controlador.SrvAgregarVideojuego.doGet(SrvAgregarVideojuego.java:44)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2201)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+oct 09, 2026 9:38:47 P. M. org.apache.catalina.core.ApplicationContext log
+GRAVE: No se pudo procesar el videojuego
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEOJUEGO" no encontrada
+Table "VIDEOJUEGO" not found; SQL statement:
+INSERT INTO Videojuego (codigo, titulo, genero, plataforma) VALUES (?, ?, ?, ?) [42102-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7945)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7916)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7895)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7857)
+	at org.h2.command.Parser.parseInsert(Parser.java:1521)
+	at org.h2.command.Parser.parsePrepared(Parser.java:698)
+	at org.h2.command.Parser.parse(Parser.java:581)
+	at org.h2.command.Parser.parse(Parser.java:556)
+	at org.h2.command.Parser.prepareCommand(Parser.java:484)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:315)
+	at com.ejemplo.proyectoweb.modelo.VideojuegoDAO.insertar(VideojuegoDAO.java:58)
+	at com.ejemplo.proyectoweb.controlador.SrvAgregarVideojuego.doPost(SrvAgregarVideojuego.java:101)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:653)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2201)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+oct 09, 2026 9:38:47 P. M. org.apache.catalina.core.ApplicationContext log
+GRAVE: No se pudo consultar la tabla Videojuego
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEOJUEGO" no encontrada
+Table "VIDEOJUEGO" not found; SQL statement:
+SELECT codigo, titulo, genero, plataforma FROM Videojuego ORDER BY codigo [42102-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7945)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7916)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7895)
+	at org.h2.command.Parser.readTablePrimary(Parser.java:1769)
+	at org.h2.command.Parser.readTableReference(Parser.java:2249)
+	at org.h2.command.Parser.parseSelectFromPart(Parser.java:2702)
+	at org.h2.command.Parser.parseSelect(Parser.java:2810)
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2692)
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547)
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526)
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519)
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512)
+	at org.h2.command.Parser.parseQuery(Parser.java:2479)
+	at org.h2.command.Parser.parsePrepared(Parser.java:610)
+	at org.h2.command.Parser.parse(Parser.java:581)
+	at org.h2.command.Parser.parse(Parser.java:556)
+	at org.h2.command.Parser.prepareCommand(Parser.java:484)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:315)
+	at com.ejemplo.proyectoweb.modelo.VideojuegoDAO.listar(VideojuegoDAO.java:45)
+	at com.ejemplo.proyectoweb.controlador.SrvAgregarVideojuego.mostrar(SrvAgregarVideojuego.java:140)
+	at com.ejemplo.proyectoweb.controlador.SrvAgregarVideojuego.doPost(SrvAgregarVideojuego.java:119)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:653)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2201)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+]]></system-err>
+  </testcase>
+  <testcase name="validaCamposEnServidorAunqueSeOmitaValidacionDelNavegador" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.353"/>
+  <testcase name="entradaAnteriorRedirigeYVistaEsPrivada" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.332"/>
+  <testcase name="editarDatoInvalidoOInexistenteNoModificaOtrosRegistros" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.344"/>
+  <testcase name="loginSesionYLogoutProtegenTodosLosEndpoints" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.324"/>
+  <testcase name="codigoDuplicadoConservaFormularioYRegistroOriginal" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.326"/>
+  <testcase name="usuarioIncorrectoYBaseAusenteMuestranMensajesDistintos" classname="com.ejemplo.proyectoweb.VideojuegoMvcTest" time="0.425">
+    <system-err><![CDATA[oct 09, 2026 9:38:49 P. M. org.apache.catalina.core.ApplicationContext log
+GRAVE: No se pudo validar el usuario en PostgreSQL
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USUARIOS_APP" no encontrada
+Table "USUARIOS_APP" not found; SQL statement:
+SELECT clave, nombre, password_hash FROM usuarios_app WHERE clave = ? AND activo = TRUE [42102-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7945)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7916)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7895)
+	at org.h2.command.Parser.readTablePrimary(Parser.java:1769)
+	at org.h2.command.Parser.readTableReference(Parser.java:2249)
+	at org.h2.command.Parser.parseSelectFromPart(Parser.java:2702)
+	at org.h2.command.Parser.parseSelect(Parser.java:2810)
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2692)
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547)
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526)
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519)
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512)
+	at org.h2.command.Parser.parseQuery(Parser.java:2479)
+	at org.h2.command.Parser.parsePrepared(Parser.java:610)
+	at org.h2.command.Parser.parse(Parser.java:581)
+	at org.h2.command.Parser.parse(Parser.java:556)
+	at org.h2.command.Parser.prepareCommand(Parser.java:484)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:315)
+	at com.ejemplo.proyectoweb.modelo.UsuarioDAO.validar(UsuarioDAO.java:30)
+	at com.ejemplo.proyectoweb.controlador.SrvValidarSesion.doPost(SrvValidarSesion.java:29)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:653)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2201)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+]]></system-err>
+  </testcase>
+</testsuite>

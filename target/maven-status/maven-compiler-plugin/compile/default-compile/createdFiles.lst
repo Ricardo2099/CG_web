@@ -1,0 +1,8 @@
+com\ejemplo\proyectoweb\modelo\UsuarioDAO$Usuario.class
+com\ejemplo\proyectoweb\modelo\UsuarioDAO.class
+com\ejemplo\proyectoweb\modelo\VideojuegoDAO.class
+com\ejemplo\proyectoweb\controlador\SrvCerrarSesion.class
+com\ejemplo\proyectoweb\modelo\CrearUsuario.class
+com\ejemplo\proyectoweb\controlador\SrvValidarSesion.class
+com\ejemplo\proyectoweb\controlador\SrvAgregarVideojuego.class
+com\ejemplo\proyectoweb\modelo\Videojuego.class

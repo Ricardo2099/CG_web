@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.proyectoweb.VideojuegoMvcTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.78 s -- in com.ejemplo.proyectoweb.VideojuegoMvcTest
